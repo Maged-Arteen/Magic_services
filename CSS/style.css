@@ -1,0 +1,144 @@
+@import url('https://fonts.googleapis.com/css2?family=Zain:wght@200;300;400;700;800;900&display=swap');
+
+*{
+    font-family: "Zain", sans-serif;
+}
+.carousel-inner img{ 
+    height: 80vh;
+}
+#navbarSupportedContent ul li{
+    position: relative;
+    
+}
+
+#navbarSupportedContent ul li a{ 
+    
+}
+#navbarSupportedContent ul li a:hover{ 
+    color: red;
+    transform: scale(1.1);
+    transition: all 0.3s ease-in-out;
+  
+}
+
+
+#navbarSupportedContent ul li a:after{ 
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    content: "";
+    width: 0%;
+    height: 2px;
+    background-color: var(--main-color);
+    transition: 0.5s;
+}
+
+#carouselExampleDark{ 
+    
+}
+
+p{
+    line-height: 1.8rem;
+}
+p span.year{
+    color:red;
+}
+
+p span.creadit{ 
+    font-weight: 700;
+    color: blue;
+}
+
+
+.who img{ 
+    border-radius: 3rem;
+}
+
+.we-are a{ 
+    text-decoration: none;
+    display: block;
+}
+
+.we-are a:hover{
+    color: red;
+    transform: scaleX(1.1);
+    transition: all ease-in-out 0.5s;
+    
+}
+
+.contact { 
+    background-color: #f8f9fa;
+}
+
+.services div img{ 
+   width: 100%;
+   margin: 0;
+   padding: 0;
+   height: 200px;
+   object-fit: contain;
+}
+
+.card:hover{ 
+ 
+  scale: 1.05;
+  transition: 0.5s ease-in-out;
+  box-shadow: 0px 5px 25px #919eab;
+    
+}
+
+
+.info a{ 
+    text-decoration: none;
+}
+
+.info a i{ 
+    font-size: 2rem;
+    border: 2px solid ;
+    padding: 0.5rem;
+    border-radius: 50%;
+    margin: 0.3rem;
+    
+}
+
+.customer_service .watsapp a i{
+    font-size: 2rem;
+    border: 2px solid ;
+    padding: 0.5rem;
+    border-radius: 50%;
+    margin: 0.5rem; 
+    background-color: green;
+    color: #f8f9fa;
+    
+}
+
+.info li ,.watsapp li { 
+    list-style: none;
+}
+
+.customer-img img{ 
+    border-radius: 40px;
+}
+
+ul h3{ 
+   text-shadow: 0px 0px 10px red;
+}
+
+#wats li i { 
+    background-color: green;
+    color: #fff;
+}
+
+#customer_service{ 
+    font-size: 2rem;
+    background-image: url("./");
+}
+
+#mail-img{ 
+    border-radius: 2rem;
+    width: 90%;
+    
+}
+
+#us{
+    
+}
