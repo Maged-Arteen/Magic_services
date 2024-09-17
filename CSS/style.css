@@ -126,6 +126,7 @@ ul h3{
 #wats li i { 
     background-color: green;
     color: #fff;
+    text-align:left;
 }
 
 #customer_service{ 
