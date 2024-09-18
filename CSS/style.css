@@ -8,17 +8,27 @@
 }
 #navbarSupportedContent ul li{
     position: relative;
+    border-bottom: 1px solid transparent;
+    border-bottom-width:0% ;
+    transition: 0.5s all;
     
 }
 
 #navbarSupportedContent ul li a{ 
     
 }
+
+.side_title{ 
+    text-align: start;
+}
 #navbarSupportedContent ul li a:hover{ 
-    color: red;
+    color: rgb(38, 0, 255);
     transform: scale(1.1);
     transition: all 0.3s ease-in-out;
-  
+    font-weight: bold;
+}
+#navbarSupportedContent ul li a:focus{ 
+    color: black;
 }
 
 
@@ -34,9 +44,13 @@
 }
 
 #carouselExampleDark{ 
-    
+    margin-top: 40px;
 }
 
+
+.companyName{
+font-weight: bold;
+}
 p{
     line-height: 1.8rem;
 }
