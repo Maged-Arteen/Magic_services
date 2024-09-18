@@ -154,3 +154,11 @@ ul h3{
     width: 90%;
     
 }
+
+
+@media screen and (max-width:468px){ 
+    .experience .accordion-item ul li { 
+        font-size: 0.6rem;
+        text-align: start;
+    }
+}
