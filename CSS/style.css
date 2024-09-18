@@ -14,9 +14,6 @@
     
 }
 
-#navbarSupportedContent ul li a{ 
-    
-}
 
 .side_title{ 
     text-align: start;
@@ -43,11 +40,15 @@
     transition: 0.5s;
 }
 
-#carouselExampleDark{ 
+#carouselExampleDark,main , main >div{ 
     margin-top: 40px;
 }
 
-
+.we-are h1 , .services h1,.customer_service h1
+, .experience h1 , .contact h1{ 
+  padding-top: 50px;
+    color: red;
+}
 .companyName{
 font-weight: bold;
 }
@@ -151,9 +152,5 @@ ul h3{
 #mail-img{ 
     border-radius: 2rem;
     width: 90%;
-    
-}
-
-#us{
     
 }
