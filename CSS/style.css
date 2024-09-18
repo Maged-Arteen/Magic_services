@@ -167,4 +167,10 @@ ul h3{
         font-size: 0.6rem;
         text-align: start;
     }
+    .social { 
+        order:-1; 
+    }
+    .social a i  { 
+        font-size:2rem;
+    }
 }
