@@ -164,7 +164,7 @@ ul h3{
 
 @media screen and (max-width:468px){ 
     .experience .accordion-item ul li { 
-        font-size: 0.6rem;
+        font-size: 0.8rem;
         text-align: start;
     }
     .social { 
